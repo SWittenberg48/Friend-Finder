@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">
+          <span class="fa fa-ravelry"><strong>Friend Finder</strong></span>
+        </h1>
+        <hr />
+        <h2 class="text-center"><strong> Survey Questions!</strong></h2>
+        <br />
+        <form>
+          <h3><strong>About You</strong></h3>
+          <div class="form-group">
+            <label for="name">Name (Required)</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="photo">Link to Photo image (Required)</label>
+            <input type="text" class="form-control" id="photo" />
+          </div>
+        </form>
+        <hr />
+        <h3><strong>Question 1</strong></h3>
+        <h4>Has a family member been murdered?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 1">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 2</strong></h3>
+        <h4>Have you been in a war?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 2">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 3</strong></h3>
+        <h4>Do you support the current Queen?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 3">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 4</strong></h3>
+        <h4>Do you believe in the dark arts?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 4">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 5</strong></h3>
+        <h4>Are you part of a royal family?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 5">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 6</strong></h3>
+        <h4>Do you like to Gossip?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 6">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 7</strong></h3>
+        <h4>Are you a fighter?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 7">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 8</strong></h3>
+        <h4>How much do you like Winter?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 8">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3><strong>Question 9</strong></h3>
+        <h4>How much do you like summer?</h4>
+        <select data-placeholder="" class="chosen-select" id="question 9">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <h3>
+          <strong
+            >Questionnaire you afraid that you will never find a friend?
+            10</strong
+          >
+        </h3>
+        <h4>A</h4>
+        <select data-placeholder="" class="chosen-select" id="question 10">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr />
+        <div class="text-center">
+          <button class="btn btn-lg btn-primary">
+            <span class="fa fa-check-square-o" id="submit"> Submit</span>
+          </button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p>
+            <a href="/api/friends">API Friends Link</a> |
+            <a href="https://github.com/SWittenberg48/Friend-Finder"
+              >Github Repo</a
+            >
+          </p>
+        </div>
+      </footer>
+      <script>
+        // Capture the form inputs
+        $("#submit").on("click", function(event) {
+          event.preventDefault();
+          // Form validation
+          function validateForm() {
+            var isValid = true;
+            $(".form-control").each(function() {
+              if ($(this).val() === "") {
+                isValid = false;
+              }
+            });
+            $(".chosen-select").each(function() {
+              if ($(this).val() === "") {
+                isValid = false;
+              }
+            });
+            return isValid;
+          }
+          // If all required fields are filled
+          if (validateForm()) {
+            // Create an object for the user"s data
+            var userData = {
+              name: $("#name").val(),
+              photo: $("#photo").val(),
+              scores: [
+                $("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val()
+              ]
+            };
+            // AJAX post the data to the friends API.
+            $.post("/api/friends", userData, function(data) {
+              // // Grab the result from the AJAX post so that the best match's name and photo are displayed
+              alert("working");
+            });
+          } else {
+            alert("Please fill out all fields before submitting!");
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
